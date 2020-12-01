@@ -1,0 +1,284 @@
+body{
+    background-color: black;
+}
+
+.block {
+    background-color:tan;
+
+    height:700px;
+    width:100%;
+
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+
+    position: absolute;
+    margin: auto;
+
+}
+
+.head {
+    background-color: maroon;
+
+    height:205px;
+    width:350px;
+
+    top: 31em;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+
+    margin: auto;
+    position: absolute;
+
+    border-radius: 40% 40% 0 0;
+    box-shadow: 0px 0px 10px black;
+
+}
+
+.l_eye{
+    background-color:white;
+
+    height:92px;
+    width:55px;
+
+    top: 38em;
+    bottom: 0;
+    right: 7em;
+    left: 0;
+    z-index: 2;
+
+    margin: auto;
+    position: absolute;
+
+    border-radius: 40% 40% 0 0;
+    box-shadow: 3px 0px 6px black;
+
+
+
+}
+
+.r_eye{
+    background-color:white;
+
+    height:92px;
+    width:55px;
+
+    top: 38em;
+    bottom: 0;
+    right: 0;
+    left: 7em;
+    z-index: 2;
+
+    margin: auto;
+    position: absolute;
+
+    border-radius: 40% 40% 0 0;
+    box-shadow: 3px 0px 6px black;
+
+
+
+}
+
+.l_pupil {
+    background-color: black;
+
+    height:59px;
+    width:25px;
+
+    top: 41em;
+    bottom: 0;
+    right: 0;
+    left: 12em;
+    z-index: 2;
+
+    margin: auto;
+    position: absolute;
+
+    border-radius: 40% 40% 0 0;
+
+    /* x-: all 1s linear infinity; */
+    animation: lpulse 3.5s infinite;
+
+}
+
+@keyframes lpulse {
+    0%, 100% {
+      left: 90px;
+    }
+    50% {
+      left: 130px;
+    }
+}
+
+.r_pupil {
+    background-color: black;
+
+    height:59px;
+    width:25px;
+
+    top: 41em;
+    bottom: 0;
+    right: 7em;
+    left: 0;
+    z-index: 2;
+
+    margin: auto;
+    position: absolute;
+
+    border-radius: 40% 40% 0 0;
+
+    animation: rpulse 3.5s infinite;
+
+}
+@keyframes rpulse {
+     
+    50% {
+      left: 20px;
+    }
+    0%, 100% {
+      left: -20px;
+    }
+}
+
+
+.finger1 {
+    background-color: maroon;
+    width: 40px;
+    height: 60px;
+    border-radius: 50%;
+
+    top: 43em;
+    bottom: 0;
+    right: 36em;
+    left: 0;
+    z-index: 2;
+
+    margin: auto;
+    position: absolute;
+
+}
+
+.finger2 {
+    background-color: maroon;
+    width: 40px;
+    height: 70px;
+    border-radius: 50%;
+
+    top: 43em;
+    bottom: 0;
+    right: 33em;
+    left: 0;
+    z-index: 2;
+
+    margin: auto;
+    position: absolute;
+
+}
+
+.finger3 {
+    background-color: maroon;
+    width: 40px;
+    height: 80px;
+    border-radius: 50%;
+
+    top: 43em;
+    bottom: 0;
+    right: 30em;
+    left: 0;
+    z-index: 2;
+
+    margin: auto;
+    position: absolute;
+
+}
+
+.finger4 {
+    background-color: maroon;
+    width: 40px;
+    height: 75px;
+    border-radius: 50%;
+
+    top: 43em;
+    bottom: 0;
+    right: 27em;
+    left: 0;
+    z-index: 2;
+
+    margin: auto;
+    position: absolute;
+
+}
+
+.finger5 {
+    background-color: maroon;
+    width: 40px;
+    height: 75px;
+    border-radius: 50%;
+
+    top: 43em;
+    bottom: 0;
+    right: 0;
+    left: 27em;
+    z-index: 2;
+
+    margin: auto;
+    position: absolute;
+    
+
+}
+
+.finger6 {
+    background-color: maroon;
+    width: 40px;
+    height: 80px;
+    border-radius: 50%;
+
+    top: 43em;
+    bottom: 0;
+    right: 0;
+    left: 30em;
+    z-index: 2;
+
+    margin: auto;
+    position: absolute;
+
+}
+
+.finger7 {
+    background-color: maroon;
+    width: 40px;
+    height: 70px;
+    border-radius: 50%;
+
+    top: 43em;
+    bottom: 0;
+    right: 0;
+    left: 33em;
+    z-index: 2;
+
+    margin: auto;
+    position: absolute;
+
+}
+
+.finger8 {
+    background-color: maroon;
+
+    width: 40px;
+    height: 60px;
+    border-radius: 50%;
+
+    top: 43em;
+    bottom: 0;
+    right: 0;
+    left: 36em;
+    z-index: 2;
+
+    margin: auto;
+    position: absolute;
+
+}
